@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
    #puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
    if val < returnVal
      returnVal = val
-     returnKey = {key}
+     returnKey = key
    end
  end
    return returnKey
