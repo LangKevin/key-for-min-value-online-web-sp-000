@@ -6,8 +6,8 @@ def key_for_min_value(name_hash)
     return nil
   end
   returnVal = 100000000
-  returnKey = ‘’
-  name_hash.each do |key, val|  
+  returnKey = ""
+  name_hash.each do |key, val|
    #puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
    if val < returnVal
      returnVal = val
